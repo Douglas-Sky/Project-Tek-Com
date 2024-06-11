@@ -45,7 +45,7 @@ section_background {
     text-decoration: none;
     color: #F1FDF3;
 } */
-
+/* styling the backgorund of the header */
 .section_background {
     background-image: url(../img/pikaso.jpeg);
     background-color: #000000;
@@ -108,7 +108,8 @@ section_background {
 
 /* setting the position of the tek-com */
 #tek_com {
-    color:#49FF00;;
+    color: #49FF00;
+    ;
     position: absolute;
     top: 30px;
     left: 30px;
@@ -120,6 +121,7 @@ section_background {
     font-family: myFont;
     src: url(DS-DIGI.TTF);
 }
+
 h1 {
     font-family: myFont;
     font-size: 20px;
@@ -142,17 +144,66 @@ h1 {
     */
 
 /* positioning the Exploring p tag */
-#Explore {position: absolute;
-font-size: 50px;
-margin-top: 200px;
-margin-left: -750px;
-color:#49FF00;
+#Explore {
+    position: absolute;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: -750px;
+    color: #030408;
 }
 
 @font-face {
     font-family: myFont2;
     src: url(Angista\ Script.otf);
 }
+
 #Explore {
     font-family: myFont2;
+}
+
+/* adding background and style to the first section */
+.section_1 {
+    background-color: #7F8996;
+    /* background-color: rgba(100, 100, 100, 0.8); */
+    padding-top: 20px;
+    padding-left: 10px;
+    opacity: 10px;
+
+}
+
+/* styling and working on the about us */
+#about_section {
+    position: absolute;
+    font-family: myFont2;
+    justify-content: center;
+
+
+}
+
+#image_section1 {
+    width: 450px;
+    height: 300px;
+    margin-left: 200px;
+    opacity: 10px;
+}
+
+@font-face {
+    font-family: Romanus;
+    src: url(ROMANUS.otf);
+}
+
+/* styling and working on the text in the image in the first section*/
+#p1_section1 {
+    font-family: Romanus;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 15px;
+    font-size: 23px;
+    color: #020202;
+    font-weight: bold;
+}
+
+#about_section {
+    color: #050507;
+
 }
