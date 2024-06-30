@@ -50,8 +50,6 @@ body {
     overflow-x: hidden;
 }
 
-
-
 /* styling the backgorund of the header */
 html {
     scroll-behavior: smooth;
@@ -59,7 +57,6 @@ html {
 
 .section_background {
     background-image: url(../img/pikaso.jpeg);
-    background-color: #000000;
     width: 100%;
     height: 200vh;
     background-position: center;
@@ -67,16 +64,33 @@ html {
     background-clip: inherit;
 }
 
+
+/* applying hover effect tor the links */
+
+a:hover {
+    background-color: rgb(53, 53, 19);
+    text-decoration: underline;
+    border: #061a57;
+}
+
+#no_background:hover {
+    background-color: #45a049;
+}
+#no_background:hover #button {
+    color:rgb(53, 53, 19); /* Ensure the text color remains white on hover */
+}
+
 .ul-list {
     justify-content: center;
     text-decoration: none;
     padding: 0px 0px;
     display: flex;
-    color: white;
+    color: whitesmoke;
     font-size: 19px;
     list-style-type: none;
     padding: 10px;
     margin: 20px;
+    font-weight: bold;
 }
 
 /* setting the position of the ul-list */
@@ -130,7 +144,6 @@ h1 {
     font-family: myFont;
     font-size: 20px;
 }
-
 
 #Virtual_image {
     width: 100vh;
@@ -197,16 +210,15 @@ h1 {
     font-weight: 20px;
 }
 
-
-
 /* Styling and working on section_ */
 .section_1 h2 {
     font-family: Autography;
     color: #43011d;
     /* position: absolute; */
     margin-top: 3px;
-    margin-left: 25rem;
-    font-size: 40px;
+text-align: center;
+    /* margin-left: 25rem; */
+    font-size: 40px; 
 
 }
 
@@ -236,19 +248,17 @@ h1 {
     left: 40%;
 }
 
-
-
 .section_2 {
     display: flex;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 0px;
-    padding-top: 2rem;
+    padding-top: 1rem;
     position: relative;
     right: 8%;
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 60px;
     border-left: 2px solid rgb(10, 4, 6);
 
     /* setting background image for section_2 */
@@ -258,6 +268,7 @@ h1 {
 .section_2_1 {
     position: relative;
     margin-left: 2rem;
+
 }
 
 .section_2_1 img {
@@ -268,27 +279,24 @@ h1 {
 
 
 .section_2_1 h2 {
-    color:#49FF00;
+    color: #061a57;
     margin-top: 3rem;
     padding-left: 5px;
-    font-size: 20px;
+    font-size: 35px;
     margin-top: 30px;
     border-bottom: 2px solid black;
+    text-align: center;
+    left: 40%;
 }
 
-
-.paragraph-container {
-    display: flex;
-    gap: 20px;
-}
 
 .paragraph-container p {
     flex: 1;
     margin: 0;
     padding: 10px;
-    /* border-left: 2px solid #000; */
+    /* border-bottom: 2px solid #000; */
     box-sizing: border-box;
-    margin-top: -20px;
+    margin-top: -28px;
     margin-left: -10px;
 }
 
@@ -297,25 +305,20 @@ h1 {
     margin-top: 2rem;
 }
 
-#Tek {
-    /* position: relative; */
-    font-size: medium;
-    color: hsl(0, 87%, 37%);
-    font-family: normal;
-}
 
 .Tek {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
     color: #49FF00;
+    margin-left: 2rem;
 }
 
 #Tek {
     color: #300213;
-
+    border-right: #45a049;
+    justify-content: center;
+    margin-left: 3rem;
+    top: 40%;
+    font-size: 18px;
 }
 
 .section_3 {
@@ -356,8 +359,8 @@ h1 {
     text-decoration: none;
     color: #000;
     background-color: none;
-    font-size: 20px;
-    color: crimson;
+    font-size: 23px;
+    color: #061a57;
     font-family: Romanus;
 }
 
@@ -394,8 +397,6 @@ h1 {
 }
 
 
-
-
 /* styling and working on the text in the image of the first section*/
 #p1_section1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -415,7 +416,7 @@ h1 {
 }
 
 .strategic h1 {
-    color:#4af108;
+    color: #061a57;
     font-size: 25px;
 }
 
@@ -426,7 +427,7 @@ h1 {
 }
 
 .Anticipate h1 {
-    color: #4af108;
+    color: #061a57;
     font-size: 25px;
     margin-left: 5px;
 
@@ -438,10 +439,9 @@ h1 {
 }
 
 .Inspired h1 {
-    color:#4af108;
+    color: #061a57;
     font-size: 25px;
 }
-
 
 .Elevate {
     font-size: 15px;
@@ -449,10 +449,9 @@ h1 {
 }
 
 .Elevate h1 {
-    color:#4af108;
+    color: #061a57;
     font-size: 25px;
 }
-
 
 #Entrepreneur1 {
     width: 300px;
@@ -484,7 +483,6 @@ h1 {
     width: 100%;
     height: 100%;
 }
-
 
 
 /* Footer section */
